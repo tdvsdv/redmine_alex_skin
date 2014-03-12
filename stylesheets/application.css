@@ -386,14 +386,6 @@ border-radius: 8px 8px 8px 8px;
   background-position: 0px 370px;
   }
 
-#account
-  {
-  padding-right: 25px;
-  background-image: url(../images/logo.png);
-  background-position: 100% 50%;
-  background-repeat: no-repeat;
-  }
-
 #dropdown_top_menu a span.count, #top-menu a span.count, span.count
   {
   /*background-color: #3F7FB1;*/
