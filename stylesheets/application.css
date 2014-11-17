@@ -54,6 +54,11 @@ textarea, input[type=text], input[type=password] {
 input.autocomplete {
   padding-left: 20px !important;
 }
+
+/* for from on project revisions contextual */
+#revision_selector {
+  padding-left: 5px;
+}
 /*-----------------------------------------------------*/
 
 /* UI */
@@ -311,6 +316,11 @@ a.issue {
   padding-bottom: 1px;
 }
 
+tr.issue td.subject a,
+tr.issue td.id a {
+  border-bottom-color: #E0CCB7;
+}
+
 a.selected, #sidebar a.selected, .selected {
   padding: 3px;
   background-color: #ef7f1a;
@@ -558,7 +568,8 @@ background-color: #EEEEEE;
   }
 
 #content {
-  padding: 6px 10px 10px 5px;
+  /*padding: 6px 10px 10px 5px;*/
+  padding: 6px;
   min-height: 1000px;
   width: auto;
   margin-right: 350px;
